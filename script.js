@@ -122,24 +122,24 @@ else if (userInput.toLowerCase().includes("Which is the largest city in India by
 }
 else if (userInput.toLowerCase().includes("ind vs pak") || userInput.toLowerCase().includes("india vs pakistan")) {
     botMessage.textContent = "The highly anticipated cricket match between India and Pakistan is scheduled for February 23, 2025, during the ICC Champions Trophy. Due to ongoing political tensions, India's matches will be held in the United Arab Emirates (UAE), with the India-Pakistan clash set to take place at the Dubai International Cricket Stadium.";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
-}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("when is neet exam") || userInput.toLowerCase().includes("neet kab hai")) {
+    botMessage.textContent = "As of now, the National Testing Agency (NTA) has not officially announced the exact date for the National Eligibility cum Entrance Test (NEET) 2025. However, based on previous years' schedules, NEET is typically held in the first week of May. For instance, NEET 2024 was conducted on May 5, 2024. Therefore, it's anticipated that NEET 2025 will also take place around early May 2025.";
+}else if (userInput.toLowerCase().includes("Which is the longest day on Earth") ) {
+    botMessage.textContent = "The longest day of the year is on June 21st (or 20th in some years), known as the Summer Solstice. This is when the Northern Hemisphere receives the most daylight hours, while the Southern Hemisphere experiences its shortest day.";
+}else if (userInput.toLowerCase().includes("Which is the shortest day on Earth") ) {
+    botMessage.textContent = "The shortest day of the year is on December 21st (or 22nd), called the Winter Solstice. On this day, the Northern Hemisphere has the fewest daylight hours, while the Southern Hemisphere experiences its longest day.";
+}else if (userInput.toLowerCase().includes("siddhi") || userInput.toLowerCase().includes("siddhu") || userInput.toLowerCase().includes("badya")) {
+    botMessage.textContent = "MD of KhansLabs";
+}else if (userInput.toLowerCase().includes("javed ") || userInput.toLowerCase().includes("javed khan")) {
+    botMessage.textContent = "Founder of Lucky Transport, and cheirman of KhansLabs";
+}else if (userInput.toLowerCase().includes("How many days are there in a year") ) {
+    botMessage.textContent = "There are 365 days in a normal year and 366 days in a leap year (which occurs every 4 years, like 2024, 2028, etc.)";
+}else if (userInput.toLowerCase().includes("Why do we have leap years") ) {
+    botMessage.textContent = "A leap year is added to account for the extra 0.2422 days that Earth takes to orbit the Sun each year. Without leap years, our calendar would slowly shift out of sync with the seasons.";
+}else if (userInput.toLowerCase().includes("Why do day and night lengths change throughout the year") ) {
+    botMessage.textContent = "This happens because Earth's axis is tilted at 23.5 degrees relative to its orbit around the Sun. As a result, different parts of the Earth receive varying amounts of sunlight during different times of the year.";
+}else if (userInput.toLowerCase().includes("What is the shortest measurable day on Earth") ) {
+    botMessage.textContent = "Due to Earth’s irregular rotation speed, the shortest recorded day was June 29, 2022, when Earth completed its rotation 1.59 milliseconds faster than 24 hours.";
 }else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
     botMessage.textContent = ".";
 }else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
