@@ -26,7 +26,7 @@ function getResponse() {
         botMessage.textContent = "Boom Boom Robota, I'm doing great! You?";
     } else if (userInput.toLowerCase().includes("your name")) {
         botMessage.textContent = "I am Chitti AI, India’s most advanced and high-tech AI chatbot, built to compete with the world’s leading AI models. 🚀 Designed with next-gen machine learning and deep neural networks, I understand, learn, and respond with precision and intelligence. Whether you need instant answers, creative ideas, coding help, business insights, or multilingual support, I am here to assist you—faster, smarter, and more efficient than ever!                                     Powered by India’s latest AI innovations, I bring cutting-edge technology right to your fingertips. Ask me anything, and let’s explore the future together! 🤖🔥 Boom Boom Robota ";
-    } else if (userInput.toLowerCase().includes("bhadwe") || userInput.toLowerCase().includes("madarchod")) {
+    } else if (userInput.toLowerCase().includes("bhadwe") || userInput.toLowerCase().includes("madarchod")|| userInput.toLowerCase().includes("chinal")) {
         botMessage.textContent = "Teri Maa Ki Ch*** ☠️. Maaf kare 🙏 kripiya galat sabd ka islemat na kare";
     } 
      else if (userInput.toLowerCase().includes("nice") || userInput.toLowerCase().includes("fine")) {
@@ -79,7 +79,7 @@ function getResponse() {
         botMessage.textContent = "Bhai hai apna. Don🦁";
     } else if (userInput.toLowerCase().includes("vandan")) {
         botMessage.textContent = "Bhai hai apna lekin T*P* bada hai 😅";
-    } else if (userInput.toLowerCase().includes("lawde") || userInput.toLowerCase().includes("teri maa ki chut")) {
+    } else if (userInput.toLowerCase().includes("lawde") || userInput.toLowerCase().includes("teri maa ki chut") || userInput.toLowerCase().includes("chutke") || userInput.toLowerCase().includes("fuck you")|| userInput.toLowerCase().includes("jhatu")) {
         botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
     } else if (userInput.toLowerCase().includes("tumhe kisne banaya")) {
         botMessage.textContent = "mere maa or baap ne";
@@ -91,8 +91,10 @@ function getResponse() {
         botMessage.textContent = "According to my data base, 11 feb 2025 se HSC Board paper start honge or pehla paper English ka honga";
     } else if (userInput.toLowerCase().includes("neet")) {
         botMessage.textContent = "Doctor banne ke liye bharat main entrance exam ko NEET UG kehte hai isme 720 marks ka paper hota hai { P,C,B }";
-    }  else if (userInput.toLowerCase().includes("teri girlfreind hai kya")) {
+    }  else if (userInput.toLowerCase().includes("teri girlfreind hai kya") || userInput.toLowerCase().includes("tumhari girlfreind hai kya")) {
         botMessage.textContent = "ji Main ek ai robot hu. Meri koi human girlfreind toh nahi hai lekin meri ek robot girlfreind hai jiska naam hai Sophia💕";
+    }else if (userInput.toLowerCase().includes("who is the president of russia")) {
+        botMessage.textContent = "vladimin Putin";
     }
 
     //trigonometry ratios 
