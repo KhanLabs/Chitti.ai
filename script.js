@@ -103,6 +103,18 @@ function getResponse() {
     //trigonometry ratios 
     else if (userInput.toLowerCase().includes("sin 30") || userInput.toLowerCase().includes("cos 60")) {
         botMessage.textContent = "1/2";
+    } else if (userInput.toLowerCase().includes("sin 60") || userInput.toLowerCase().includes("cos 30")) {
+        botMessage.textContent = "√3/2";
+    }else if (userInput.toLowerCase().includes("cosec 60") || userInput.toLowerCase().includes("sec 30")) {
+        botMessage.textContent = "2/√3";
+    }else if (userInput.toLowerCase().includes("cosec 45") || userInput.toLowerCase().includes("sec 45")) {
+        botMessage.textContent = "√2";
+    }else if (userInput.toLowerCase().includes("cosec 30") || userInput.toLowerCase().includes("sec 60")) {
+        botMessage.textContent = "2";
+    }else if (userInput.toLowerCase().includes("cot 30") || userInput.toLowerCase().includes("tan 60")) {
+        botMessage.textContent = "√3";
+    }else if (userInput.toLowerCase().includes("cot 60") || userInput.toLowerCase().includes("tan 30")) {
+        botMessage.textContent = "1/√3";
     }
     else if (userInput.toLowerCase().includes("sin 90") || userInput.toLowerCase().includes("cos 0") || userInput.toLowerCase().includes("tan 45") || userInput.toLowerCase().includes("cot 45") || userInput.toLowerCase().includes("cosec 45") || userInput.toLowerCase().includes("sec 0")) {
         botMessage.textContent = "1";
