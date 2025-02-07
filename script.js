@@ -74,7 +74,7 @@ function getResponse() {
         botMessage.textContent = "Army Lover .Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
     } 
     else if (userInput.toLowerCase().includes("umer") || userInput.toLowerCase().includes("umer shah") ) {
-        botMessage.textContent = "Shah sa rutba shehenshao si teri baat hai. Lucky ka dost";
+        botMessage.textContent = "Umer Shah, now in 12th class. a kind hearted person ";
     } else if (userInput.toLowerCase().includes("aayush") || userInput.toLowerCase().includes("ingle") ) {
         botMessage.textContent = "Bhai hai apna. Don🦁";
     } else if (userInput.toLowerCase().includes("vandan")) {
