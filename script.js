@@ -97,7 +97,7 @@ function getResponse() {
         botMessage.textContent = "vladimin Putin";
     } else if (userInput.toLowerCase().includes("my name is ") || userInput.toLowerCase().includes("mera naam ")) {
         botMessage.textContent = "So Beutiful name.";
-    }else if (userInput.toLowerCase().includes("ek sher") || userInput.toLowerCase().includes("ek shayari  ")) {
+    }else if (userInput.toLowerCase().includes("ek sher") || userInput.toLowerCase().includes("ek shayari")) {
         botMessage.textContent = "सीख रहा हूँ मैं हर सवाल का जवाब,अभी हूँ नया, पर नहीं रहूंगा नवाब।मंज़िल मेरी है समझ का उजाला,थोड़ा सब्र रख, मैं सीख रहा हूँ निराला। ✨🤖 muhje bas yahi sahayari aati hai abhi main sikh raha hu";
     }
 
