@@ -89,7 +89,7 @@ function getResponse() {
         botMessage.textContent = "According to my data base, 11 feb 2025 se HSC Board paper start honge or pehla paper English ka honga";
     } else if (userInput.toLowerCase().includes("neet")) {
         botMessage.textContent = "Doctor banne ke liye bharat main entrance exam ko NEET UG kehte hai isme 720 marks ka paper hota hai { P,C,B }";
-    } else if (userInput.toLowerCase().includes("iit-jee")) {
+    } else if (userInput.toLowerCase().includes("jee")) {
         botMessage.textContent = "IIT JEE (Indian Institute of Technology Joint Entrance Examination) भारत का सबसे प्रतिष्ठित इंजीनियरिंग प्रवेश परीक्षा है। यह दो चरणों में आयोजित होती है: JEE Main – यह परीक्षा NTA (National Testing Agency) द्वारा आयोजित की जाती है। इसमें क्वालिफाई करने वाले छात्र JEE Advanced के लिए पात्र होते हैं। JEE Advanced – यह परीक्षा IITs द्वारा आयोजित की जाती है, और इसके आधार पर देश के प्रतिष्ठित IITs, IISc, IISERs, और अन्य टॉप इंजीनियरिंग कॉलेजों में प्रवेश मिलता है। JEE की तैयारी कैसे करें? ✅ सिलेबस को गहराई से समझें – फिजिक्स, केमिस्ट्री, और मैथ्स के सभी टॉपिक्स पर पकड़ मजबूत करें। ✅ NCERT की किताबों से शुरुआत करें – खासकर केमिस्ट्री के लिए। ✅ प्रैक्टिस ज्यादा करें – JEE के पुराने पेपर और मॉक टेस्ट से समय प्रबंधन में मदद मिलेगी। ✅ कंसिस्टेंसी बनाए रखें – रोजाना एक निश्चित समय तक पढ़ाई करें और नोट्स बनाएं। ✅ कंसेप्ट क्लियर करें – रटने के बजाय समझने की कोशिश करें, इससे कठिन प्रश्न भी हल करने में आसानी होगी।✅ टाइम  मैनेजमेंट और स्ट्रेटजी बनाएं – परीक्षा के दौरान सही अप्रोच अपनाना जरूरी है।";
     }
 
