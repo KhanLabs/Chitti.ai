@@ -20,7 +20,7 @@ function getResponse() {
     botMessage.classList.add("chat-message", "bot");
 
     // Bot responses based on user input
-    if (userInput.toLowerCase().includes("hi") || userInput.toLowerCase().includes("hello") || userInput.toLowerCase().includes("hola")) {
+    if (userInput.toLowerCase().includes("hii") || userInput.toLowerCase().includes("hello") || userInput.toLowerCase().includes("hola")) {
         botMessage.textContent = "Hey! How's it going?";
     } else if (userInput.toLowerCase().includes("how are you") || userInput.toLowerCase().includes("kaise ho")) {
         botMessage.textContent = "Boom Boom Robota, I'm doing great! You?";
@@ -66,7 +66,7 @@ function getResponse() {
     } else if (userInput.toLowerCase().includes("what is ai")) {
         botMessage.textContent = "AI (Artificial Intelligence) is the simulation of human intelligence in machines. It enables computers and systems to perform tasks that typically require human cognitive abilities, such as learning, reasoning, problem-solving, and language understanding.AI can be broadly classified into: Narrow AI (Weak AI) – AI designed for specific tasks, like me, ChatGPT, Siri, Google Assistant, or self-driving cars. General AI (Strong AI) – A hypothetical AI with human-like intelligence that can think, learn, and apply knowledge across different domains. AI works through various technologies, including: Machine Learning (ML) – AI learns from data patterns to make predictions or decisions. Deep Learning – A more advanced form of ML using neural networks to mimic human brain functioning. Natural Language Processing (NLP) – AI understands and generates human language (like ChatGPT!). Computer Vision – AI interprets and processes visual data, like facial recognition. AI is used in many fields, from healthcare and finance to entertainment and education. It keeps evolving, shaping the future of technology. ";
     } 
-    else if (userInput.toLowerCase().includes("italian") || userInput.toLowerCase().includes("italian alphabet")) {
+    else if (userInput.toLowerCase().includes("hindi") || userInput.toLowerCase().includes("italian alphabet")) {
         botMessage.textContent = "Beutifull language";
     }  
     //trigonometry ratios 
