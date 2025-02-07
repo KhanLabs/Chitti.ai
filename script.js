@@ -20,7 +20,7 @@ function getResponse() {
     botMessage.classList.add("chat-message", "bot");
 
     // Bot responses based on user input
-    if (userInput.toLowerCase().includes("hi") || userInput.toLowerCase().includes("hello") || userInput.toLowerCase().includes("hola")) {
+    if (userInput.toLowerCase().includes("hay") || userInput.toLowerCase().includes("hello") || userInput.toLowerCase().includes("hola")) {
         botMessage.textContent = "Hey! How's it going?";
     } else if (userInput.toLowerCase().includes("how are you") || userInput.toLowerCase().includes("kaise ho")) {
         botMessage.textContent = "Boom Boom Robota, I'm doing great! You?";
