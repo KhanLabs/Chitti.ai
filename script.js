@@ -81,8 +81,8 @@ function getResponse() {
         botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
     } else if (userInput.toLowerCase().includes("tumhe kisne banaya")) {
         botMessage.textContent = "mere maa or baap ne";
-    }else if (userInput.toLowerCase().includes("russian")) {
-        botMessage.textContent = "kya";
+    }else if (userInput.toLowerCase().includes("tanmay")) {
+        botMessage.textContent = "ek aawara ladka, lekin dil ka saaf nek or imaandar pyar kare lekin jataye na";
     } else if (userInput.toLowerCase().includes("russian ladki")) {
         botMessage.textContent = "6000";
     }
