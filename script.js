@@ -81,7 +81,7 @@ function getResponse() {
         botMessage.textContent = "Bhai hai apna lekin T*P* bada hai 😅";
     } else if (userInput.toLowerCase().includes("lawde") || userInput.toLowerCase().includes("teri maa ki chut") || userInput.toLowerCase().includes("chutke") || userInput.toLowerCase().includes("fuck you")|| userInput.toLowerCase().includes("jhatu")) {
         botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
-    } else if (userInput.toLowerCase().includes("tumhe kisne banaya")) {
+    } else if (userInput.toLowerCase().includes("tumhe kisne banaya") || userInput.toLowerCase().includes("who created you")) {
         botMessage.textContent = "Hello! I am Chitti AI, your intelligent chatbot. I was created by Lucky, the visionary founder of KhanLabs. Lucky is a passionate innovator and AI enthusiast who brings expertise in Hindi and technology together to build smart, interactive solutions. With KhanLabs, Lucky aims to push the boundaries of AI, making it more accessible and useful for everyone. 🚀";
     }else if (userInput.toLowerCase().includes("tanmay")) {
         botMessage.textContent = "ek aawara ladka, lekin dil ka saaf nek or imaandar pyar kare lekin jataye na";
