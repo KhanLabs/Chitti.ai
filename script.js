@@ -129,7 +129,7 @@ else if (userInput.toLowerCase().includes("ind vs pak") || userInput.toLowerCase
 }else if (userInput.toLowerCase().includes("Which is the shortest day on Earth") ) {
     botMessage.textContent = "The shortest day of the year is on December 21st (or 22nd), called the Winter Solstice. On this day, the Northern Hemisphere has the fewest daylight hours, while the Southern Hemisphere experiences its longest day.";
 }else if (userInput.toLowerCase().includes("siddhi") || userInput.toLowerCase().includes("siddhu") || userInput.toLowerCase().includes("badya")) {
-    botMessage.textContent = "MD of KhansLabs";
+    botMessage.textContent = "Bachhi bole toh hard hai baneka star hai";
 }else if (userInput.toLowerCase().includes("javed ") || userInput.toLowerCase().includes("javed khan")) {
     botMessage.textContent = "Founder of Lucky Transport, and cheirman of KhansLabs";
 }else if (userInput.toLowerCase().includes("How many days are there in a year") ) {
@@ -139,10 +139,12 @@ else if (userInput.toLowerCase().includes("ind vs pak") || userInput.toLowerCase
 }else if (userInput.toLowerCase().includes("Why do day and night lengths change throughout the year") ) {
     botMessage.textContent = "This happens because Earth's axis is tilted at 23.5 degrees relative to its orbit around the Sun. As a result, different parts of the Earth receive varying amounts of sunlight during different times of the year.";
 }else if (userInput.toLowerCase().includes("What is the shortest measurable day on Earth") ) {
-    botMessage.textContent = "Due to Earth’s irregular rotation speed, the shortest recorded day was June 29, 2022, when Earth completed its rotation 1.59 milliseconds faster than 24 hours.";}
-// }else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
-//     botMessage.textContent = ".";
-// }else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = "Due to Earth’s irregular rotation speed, the shortest recorded day was June 29, 2022, when Earth completed its rotation 1.59 milliseconds faster than 24 hours.";
+}
+else if (userInput.toLowerCase().includes("kaise ho") || userInput.toLowerCase().includes("tum bure ho")) {
+    botMessage.textContent = "Main toh badiya hu Aap sunao";
+} 
+// else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
 //     botMessage.textContent = ".";
 // }else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
 //     botMessage.textContent = ".";
