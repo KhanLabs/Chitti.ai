@@ -100,7 +100,28 @@ function getResponse() {
     }else if (userInput.toLowerCase().includes("ek sher") || userInput.toLowerCase().includes("ek shayari")) {
         botMessage.textContent = "सीख रहा हूँ मैं हर सवाल का जवाब,अभी हूँ नया, पर नहीं रहूंगा नवाब।मंज़िल मेरी है समझ का उजाला,थोड़ा सब्र रख, मैं सीख रहा हूँ निराला। ✨🤖 muhje bas yahi sahayari aati hai abhi main sikh raha hu";
     }
-
+//gk
+else if (userInput.toLowerCase().includes("Which is the largest city in India by population") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = "Mumbai.";
+}else if (userInput.toLowerCase().includes("What is the national flower of India") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = "Lotus.";
+}else if (userInput.toLowerCase().includes("What is India’s national sport") || userInput.toLowerCase().includes("bharat ka rashtriye khel ")) {
+    botMessage.textContent = "Hockey, although cricket is the most popular sport in the country.";
+}else if (userInput.toLowerCase().includes("Which is the oldest language spoken in India") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = "Sanskrit, although languages like Tamil are also considered ancient.";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
+    botMessage.textContent = ".";
+}
 
     //trigonometry ratios 
     else if (userInput.toLowerCase().includes("sin 30") || userInput.toLowerCase().includes("cos 60")) {
