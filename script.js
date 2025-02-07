@@ -68,7 +68,17 @@ function getResponse() {
     } 
     else if (userInput.toLowerCase().includes("hindi") || userInput.toLowerCase().includes("italian alphabet")) {
         botMessage.textContent = "Beutifull language";
-    }  
+    }  else if (userInput.toLowerCase().includes("rohit mihra") || userInput.toLowerCase().includes("rohit") ) {
+        botMessage.textContent = "Army Lover .Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
+    } 
+    else if (userInput.toLowerCase().includes("umer") || userInput.toLowerCase().includes("umer shah") ) {
+        botMessage.textContent = "Shah sa rutba shehenshao si teri baat hai";
+    } else if (userInput.toLowerCase().includes("aayush") || userInput.toLowerCase().includes("ingle") ) {
+        botMessage.textContent = "Bhai hai apna";
+    } else if (userInput.toLowerCase().includes("vandan")) {
+        botMessage.textContent = "Bhai hai apna lekin T*P* bada hai";
+    } 
+
     //trigonometry ratios 
     else if (userInput.toLowerCase().includes("sin 30") || userInput.toLowerCase().includes("cos 60")) {
         botMessage.textContent = "1/2";
@@ -81,8 +91,6 @@ function getResponse() {
         botMessage.textContent = "0";
     } else if (userInput.toLowerCase().includes("sin 45") || userInput.toLowerCase().includes("cos 45") ) {
         botMessage.textContent = "1/√2";
-    }  else if (userInput.toLowerCase().includes("rohit mihra") || userInput.toLowerCase().includes("rohit") ) {
-        botMessage.textContent = "Army Lover Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
     } 
     //last line train bot above this line 
      else {
