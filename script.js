@@ -99,7 +99,7 @@ function getResponse() {
         botMessage.textContent = "सीख रहा हूँ मैं हर सवाल का जवाब,अभी हूँ नया, पर नहीं रहूंगा नवाब।मंज़िल मेरी है समझ का उजाला,थोड़ा सब्र रख, मैं सीख रहा हूँ निराला। ✨🤖 muhje bas yahi sahayari aati hai abhi main sikh raha hu";
     }
 //gk
-else if (userInput.toLowerCase().includes("Which is the largest city in India by population") || userInput.toLowerCase().includes("")) {
+else if (userInput.toLowerCase().includes("Which is the largest city in India by population")) {
     botMessage.textContent = "Mumbai.";
 }else if (userInput.toLowerCase().includes("What is the national flower of India") || userInput.toLowerCase().includes("")) {
     botMessage.textContent = "Lotus.";
