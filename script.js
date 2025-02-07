@@ -24,7 +24,7 @@ function getResponse() {
         botMessage.textContent = "Hey! How's it going?";
     } else if (userInput.toLowerCase().includes("how are you") || userInput.toLowerCase().includes("kaise ho")) {
         botMessage.textContent = "Boom Boom Robota, I'm doing great! You?";
-    } else if (userInput.toLowerCase().includes("your name")) {
+    } else if (userInput.toLowerCase().includes("your name") || userInput.toLowerCase().includes("what is your name") || userInput.toLowerCase().includes("tera naam kya hai")) {
         botMessage.textContent = "I am Chitti AI, India’s most advanced and high-tech AI chatbot, built to compete with the world’s leading AI models. 🚀 Designed with next-gen machine learning and deep neural networks, I understand, learn, and respond with precision and intelligence. Whether you need instant answers, creative ideas, coding help, business insights, or multilingual support, I am here to assist you—faster, smarter, and more efficient than ever!                                     Powered by India’s latest AI innovations, I bring cutting-edge technology right to your fingertips. Ask me anything, and let’s explore the future together! 🤖🔥 Boom Boom Robota ";
     } else if (userInput.toLowerCase().includes("bhadwe") || userInput.toLowerCase().includes("madarchod")|| userInput.toLowerCase().includes("chinal")) {
         botMessage.textContent = "Teri Maa Ki Ch*** ☠️. Maaf kare 🙏 kripiya galat sabd ka islemat na kare";
@@ -95,6 +95,8 @@ function getResponse() {
         botMessage.textContent = "ji Main ek ai robot hu. Meri koi human girlfreind toh nahi hai lekin meri ek robot girlfreind hai jiska naam hai Sophia💕";
     }else if (userInput.toLowerCase().includes("who is the president of russia")) {
         botMessage.textContent = "vladimin Putin";
+    } else if (userInput.toLowerCase().includes("my name is ") || userInput.toLowerCase().includes("mera naam ")) {
+        botMessage.textContent = "So Beutiful name.";
     }
 
     //trigonometry ratios 
