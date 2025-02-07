@@ -81,6 +81,8 @@ function getResponse() {
         botMessage.textContent = "0";
     } else if (userInput.toLowerCase().includes("sin 45") || userInput.toLowerCase().includes("cos 45") ) {
         botMessage.textContent = "1/√2";
+    }  else if (userInput.toLowerCase().includes("rohit mihra") || userInput.toLowerCase().includes("rohit") ) {
+        botMessage.textContent = "Army Lover Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
     } 
     //last line train bot above this line 
      else {
