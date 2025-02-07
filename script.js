@@ -99,6 +99,7 @@ function getResponse() {
         botMessage.textContent = "So Beutiful name.";
     }
 
+
     //trigonometry ratios 
     else if (userInput.toLowerCase().includes("sin 30") || userInput.toLowerCase().includes("cos 60")) {
         botMessage.textContent = "1/2";
@@ -114,7 +115,7 @@ function getResponse() {
     } 
     //last line train bot above this line 
      else {
-        botMessage.textContent = "Hmm, I didn’t quite catch that. Can you try again?";
+        botMessage.textContent = "I’m always learning, but I didn’t get that one. My apologies! Could you clarify or ask in a different way?";
     }
 
   
