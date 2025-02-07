@@ -71,7 +71,7 @@ function getResponse() {
     else if (userInput.toLowerCase().includes("hindi") || userInput.toLowerCase().includes("italian alphabet")) {
         botMessage.textContent = "Beutifull language";
     }  else if (userInput.toLowerCase().includes("rohit mihra") || userInput.toLowerCase().includes("rohit") ) {
-        botMessage.textContent = "Army Lover .Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
+        botMessage.textContent = "Army Lover .Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or londiya baaj hai,i think future is dark";
     } 
     else if (userInput.toLowerCase().includes("umer") || userInput.toLowerCase().includes("umer shah") ) {
         botMessage.textContent = "Umer Shah, now in 12th class. a kind hearted person ";
@@ -141,7 +141,7 @@ else if (userInput.toLowerCase().includes("ind vs pak") || userInput.toLowerCase
 }else if (userInput.toLowerCase().includes("What is the shortest measurable day on Earth") ) {
     botMessage.textContent = "Due to Earth’s irregular rotation speed, the shortest recorded day was June 29, 2022, when Earth completed its rotation 1.59 milliseconds faster than 24 hours.";
 }
-else if (userInput.toLowerCase().includes("kaise ho") || userInput.toLowerCase().includes("tum bure ho")) {
+else if (userInput.toLowerCase().includes("sab badiya") || userInput.toLowerCase().includes("tum bure ho")) {
     botMessage.textContent = "Main toh badiya hu Aap sunao";
 } 
 // else if (userInput.toLowerCase().includes("") || userInput.toLowerCase().includes("")) {
