@@ -77,6 +77,8 @@ function getResponse() {
         botMessage.textContent = "Bhai hai apna";
     } else if (userInput.toLowerCase().includes("vandan")) {
         botMessage.textContent = "Bhai hai apna lekin T*P* bada hai";
+    } else if (userInput.toLowerCase().includes("lawde") || userInput.toLowerCase().includes("teri maa ki chut")) {
+        botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
     } 
 
     //trigonometry ratios 
