@@ -72,14 +72,16 @@ function getResponse() {
         botMessage.textContent = "Army Lover .Yeh Indian army main jana chahta hai. Abhi ye NDA ki padai kar raha hai. Or yeh Lucky ka acha dost hai";
     } 
     else if (userInput.toLowerCase().includes("umer") || userInput.toLowerCase().includes("umer shah") ) {
-        botMessage.textContent = "Shah sa rutba shehenshao si teri baat hai";
+        botMessage.textContent = "Shah sa rutba shehenshao si teri baat hai. Lucky ka dost";
     } else if (userInput.toLowerCase().includes("aayush") || userInput.toLowerCase().includes("ingle") ) {
-        botMessage.textContent = "Bhai hai apna";
+        botMessage.textContent = "Bhai hai apna. Don🦁";
     } else if (userInput.toLowerCase().includes("vandan")) {
-        botMessage.textContent = "Bhai hai apna lekin T*P* bada hai";
+        botMessage.textContent = "Bhai hai apna lekin T*P* bada hai 😅";
     } else if (userInput.toLowerCase().includes("lawde") || userInput.toLowerCase().includes("teri maa ki chut")) {
         botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
-    } 
+    } else if (userInput.toLowerCase().includes("tumhe kisne banaya")) {
+        botMessage.textContent = "mere maa or baap ne";
+    }
 
     //trigonometry ratios 
     else if (userInput.toLowerCase().includes("sin 30") || userInput.toLowerCase().includes("cos 60")) {
