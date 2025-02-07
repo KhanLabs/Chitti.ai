@@ -81,6 +81,10 @@ function getResponse() {
         botMessage.textContent = "Bhadwi ch** ke😜, Maaf kare👏🏻 kripiya galat sabd ka istemal na kare";
     } else if (userInput.toLowerCase().includes("tumhe kisne banaya")) {
         botMessage.textContent = "mere maa or baap ne";
+    }else if (userInput.toLowerCase().includes("Russian")) {
+        botMessage.textContent = "kya";
+    } else if (userInput.toLowerCase().includes("Russian ladki")) {
+        botMessage.textContent = "6000";
     }
 
     //trigonometry ratios 
